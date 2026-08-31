@@ -30,7 +30,7 @@ function Dashboard() {
 
       try {
         const response = await axios.get(
-          "http://localhost:8080/api/work-orders",
+          "https://keystone-field-service-management-ol2u.onrender.com/api/work-orders",
           {
             headers: {
               Authorization: `Bearer ${token}`,

@@ -87,8 +87,11 @@ public class SecurityConfig {
 
         // Allow React frontend
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
-        );
+        List.of(
+                "http://localhost:5173",
+                "https://stirring-alfajores-2eec18.netlify.app"
+        )
+);
 
         // Allow HTTP methods
         configuration.setAllowedMethods(

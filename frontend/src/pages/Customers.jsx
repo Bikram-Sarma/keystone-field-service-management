@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://keystone-field-service-management-ol2u.onrender.com/api";
 
 const emptyForm = {
   name: "",

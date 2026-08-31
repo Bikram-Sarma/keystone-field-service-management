@@ -9,7 +9,7 @@ import axios from "axios";
 /* eslint-disable react-hooks/set-state-in-effect */
 /* eslint-disable react-hooks/immutability */
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://keystone-field-service-management-ol2u.onrender.com/api";
 
 function WorkOrders() {
   const navigate = useNavigate();
