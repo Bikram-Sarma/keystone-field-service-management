@@ -183,4 +183,8 @@ The application follows a layered full-stack architecture:
 ```bash
 git clone https://github.com/Bikram-Sarma/keystone-field-service-management.git
 cd keystone-field-service-management
+```
+### To open the app 
+email: test@gmail.com
+password: 12345678
 
